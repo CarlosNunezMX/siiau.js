@@ -2,14 +2,25 @@
   "name": "@carlosnunezmx/siiau",
   "version": "0.1.0",
   "description": "A javascript module for download data from SIIAU",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "type": "module",
   "scripts": {
     "build": "tsc",
     "build:dev": "tsc -w"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CarlosNunezMX/siiau.js.git"
+  },
+  "keywords": [
+    "siiau",
+    "udg",
+    "siiau scrapper",
+    "siiau.js",
+    "siiau udg"
+  ],
+  "author": "CarlosNunezMX",
   "license": "ISC",
   "devDependencies": {
     "@types/he": "^1.2.3",
