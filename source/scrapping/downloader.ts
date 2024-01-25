@@ -1,3 +1,5 @@
+import type {HTMLElement} from 'node-html-parser';
+
 import parser from 'node-html-parser';
 import incov from 'iconv-lite';
 import { Urls, CommonHeaders } from './common.js';
@@ -6,7 +8,7 @@ import he from 'he';
 import { CookieParser, Jar } from './cookieParser.js';
 
 export interface FetchResponse extends Response{
-    $: parser.HTMLElement
+    $: HTMLElement
 };
 
 export async function Fetch(url: Urls | string, req: RequestInit, Cookies?: Jar){
