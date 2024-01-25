@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BasicData = exports.Login = exports.PaymentOrder = exports.Kardex = void 0;
+var Kardex_js_1 = require("./modules/Kardex.js");
+Object.defineProperty(exports, "Kardex", { enumerable: true, get: function () { return Kardex_js_1.Kardex; } });
+var PaymentOrder_js_1 = require("./modules/PaymentOrder.js");
+Object.defineProperty(exports, "PaymentOrder", { enumerable: true, get: function () { return PaymentOrder_js_1.PaymentOrder; } });
+var login_js_1 = require("./modules/login.js");
+Object.defineProperty(exports, "Login", { enumerable: true, get: function () { return login_js_1.Login; } });
+var student_js_1 = require("./modules/student.js");
+Object.defineProperty(exports, "BasicData", { enumerable: true, get: function () { return student_js_1.BasicData; } });
